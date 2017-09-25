@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Brunello</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        // Wait for device API libraries to load
+        //
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        // device APIs are available
+        //
+        function onDeviceReady() {
+            // Now safe to use device APIs
+
+            cordova.InAppBrowser.open('http://worktime.mycloudster.com/', '_blank', 'location=no,toolbar=no');
+        }
+    </script>
+  </head>
+  <body onload="onLoad()">
+  </body>
+</html>

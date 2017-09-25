@@ -1,0 +1,1 @@
+apksigner sign --verbose --ks signature/reload.jks --ks-pass pass:Reload2017 --key-pass pass:Reload2017 --ks-key-alias tr.reload apk/vigilate.apk
