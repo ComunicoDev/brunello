@@ -4,3 +4,6 @@
 node_modules/
 platforms/
 plugins/
+
+# Node JS
+package-lock.json
